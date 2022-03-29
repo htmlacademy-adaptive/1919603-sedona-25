@@ -1,7 +1,7 @@
 # Личный проект «Седона» 
 
 * Студент: [Михаил Кулешов](https://up.htmlacademy.ru/adaptive/25/user/1919603).
-* Наставник: `Неизвестно`.
+* Наставник: [Сергей Зубов](https://htmlacademy.ru/profile/serj).
 
 ---
 
