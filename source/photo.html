@@ -15,13 +15,13 @@
         </button>
         <div class="main-navigation__wrapper">
           <ul class="main-navigation__list site-list">
-            <li class="site-list__item site-list__item--active">
-              <a>
+            <li class="site-list__item">
+              <a href="index.html">
                 Главная
               </a>
             </li>
-            <li class="site-list__item">
-              <a href="photo.html">
+            <li class="site-list__item site-list__item--active">
+              <a>
                 Фото и видео
               </a>
             </li>
@@ -31,7 +31,7 @@
               </a>
             </li>
             <li class="site-list__item">
-              <a href="#">
+              <a href="https://htmlacademy.ru/intensive/adaptive">
                 HTML Academy
               </a>
             </li>
@@ -50,29 +50,37 @@
       <section class="photo-gallery">
         <h2 class="visually-hidden">Галерея</h2>
         <ul class="photo-gallery__list">
-          <li class="photo-gallery__item">
-            <h3 class="photo-gallery__title">Неродные просторы</h3>
-            <p class="photo-gallery__author">Автор фото: Борис</p>
-            <span class="photo-gallery__like photo-gallery__like--icon">1350</span>
-            <img class="photo-gallery__img" src="img/photo-mobile-gallery-road.jpg" alt="Дорога в закат." width="280" height="280">
+          <li class="photo-gallery__item card-block">
+            <h3 class="card-block__title">Неродные просторы</h3>
+            <p class="card-block__author">Автор фото: Борис</p>
+            <button class="button card-block__button-like">1350</button>
+            <a class="card-block__img-link" href="#">
+              <img class="card-block__img" src="img/mobile-road.jpg" alt="Дорога в закат." width="280" height="280">
+            </a>
           </li>
-          <li class="photo-gallery__item">
-            <h3 class="photo-gallery__title">Местная растительность</h3>
-            <p class="photo-gallery__author">Автор фото: Сергей</p>
-            <span class="photo-gallery__like photo-gallery__like--icon">143</span>
-            <img class="photo-gallery__img" src="img/photo-mobile-gallery-cactus.jpg" alt="Кактус." width="280" height="280">
+          <li class="photo-gallery__item card-block">
+            <h3 class="card-block__title">Местная растительность</h3>
+            <p class="card-block__author">Автор фото: Сергей</p>
+            <button class="button card-block__button-like">143</button>
+            <a class="card-block__img-link" href="#">
+              <img class="card-block__img" src="img/mobile-cactus.jpg" alt="Кактус." width="280" height="280">
+            </a>
           </li>
-          <li class="photo-gallery__item">
-            <h3 class="photo-gallery__title">Дорога на север</h3>
-            <p class="photo-gallery__author">Автор фото: Петр</p>
-            <span class="photo-gallery__like photo-gallery__like--icon">96</span>
-            <img class="photo-gallery__img" src="img/photo-mobile -mountain-road.jpg" alt="Горная дорога." width="280" height="280">
+          <li class="photo-gallery__item card-block">
+            <h3 class="card-block__title">Дорога на север</h3>
+            <p class="card-block__author">Автор фото: Петр</p>
+            <button class="button card-block__button-like">96</button>
+            <a class="card-block__img-link" href="#">
+              <img class="card-block__img" src="img/mobile-mountain-road.jpg" alt="Горная дорога." width="280" height="280">
+            </a>
           </li>
-          <li class="photo-gallery__item">
-            <h3 class="photo-gallery__title">Мост дьявола</h3>
-            <p class="photo-gallery__author">Автор фото: Антон</p>
-            <span class="photo-gallery__like photo-gallery__like--icon">254</span>
-            <img class="photo-gallery__img" src="img/photo-mobile-gallery-canyon.jpg" alt="Каньон." width="280" height="280">
+          <li class="photo-gallery__item card-block">
+            <h3 class="card-block__title">Мост дьявола</h3>
+            <p class="card-block__author">Автор фото: Антон</p>
+            <button class="button card-block__button-like">254</button>
+            <a class="card-block__img-link" href="#">
+              <img class="card-block__img" src="img/mobile-canyon.jpg" alt="Каньон." width="280" height="280">
+            </a>
           </li>
         </ul>
       </section>
