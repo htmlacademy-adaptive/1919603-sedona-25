@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/ptsans.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../fonts/ptsansbold.woff2") format("woff2");
+  font-display: swap;
+}
+
+.site-list__link {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.advantages__title {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.welcome__title,
+.advantages__item-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.advantages__number,
+.advantages__description,
+.page-search__subtitle,
+.copyright__text {
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.page-search__title,
+.page-search__button,
+.main-footer__link-hashtag {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+}

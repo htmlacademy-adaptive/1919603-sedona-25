@@ -1,1 +1,34 @@
-// Начните писать стили здесь
+// index
+@use "./blocks/page.scss";
+@use "./blocks/main-header.scss";
+@use "./blocks/main-navigation.scss";
+@use "./blocks/visually-hidden.scss";
+@use "./blocks/main-container.scss";
+@use "./blocks/welcome.scss";
+@use "./blocks/advantages.scss";
+@use "./blocks/page-search.scss";
+@use "./blocks/main-footer.scss";
+@use "./blocks/social.scss";
+@use "./blocks/copyright.scss";
+
+// form
+@use "./blocks/feedback.scss";
+@use "./blocks/feedback-form.scss";
+@use "./blocks/introduce-yourself.scss";
+@use "./blocks/input-block.scss";
+@use "./blocks/contacts.scss";
+@use "./blocks/impressions.scss";
+@use "./blocks/control-mark-block.scss";
+@use "./blocks/attractions.scss";
+@use "./blocks/comment.scss";
+@use "./blocks/modal-container.scss";
+@use "./blocks/modal-success.scss";
+@use "./blocks/modal.scss";
+
+// photo
+@use "./blocks/photo-gallery.scss";
+@use "./blocks/card-block.scss";
+@use "./blocks/video-presentation.scss";
+
+// fonts
+@use "./blocks/fonts.scss";
