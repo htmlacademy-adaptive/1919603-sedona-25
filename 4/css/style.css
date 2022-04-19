@@ -1,0 +1,193 @@
+body {
+  margin: 0 auto;
+}
+
+.main-navigation__list {
+  list-style-type: none;
+}
+
+.site-list__link {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.welcome__logo {
+  margin: 0;
+  margin-bottom: 32px;
+  background-color: #81b3d2;
+  background-image: url("../../img/welcome-logo-back.jpg");
+  background-repeat: no-repeat;
+}
+
+.welcome__title {
+  margin-top: 0;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.welcome__logo-image {
+  margin: 90px 310px 85px 310px;
+}
+
+.advantages {
+  margin: 0;
+  padding: 0;
+}
+
+.advantages__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.advantages__item {
+  background-color: #81b3d2;
+  margin: 0;
+}
+
+.advantages__item:nth-child(n+3) {
+  background-color: #eeeeee;
+}
+
+.advantages__photo-city {
+  background-color: #ffffff;
+}
+
+.advantages__photo-canyon {
+  background-color: #ffffff;
+}
+
+.advantages__sublist {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  list-style-type: none;
+}
+.advantages__sublist .advantages__item {
+  background-color: inherit;
+}
+
+.advantages__title {
+  margin-top: 0;
+  margin-bottom: 27px;
+  text-transform: uppercase;
+}
+
+.advantages__item-title {
+  margin: 0;
+}
+
+.advantages__number {
+  margin: 0;
+}
+
+.advantages__description {
+  margin: 0;
+}
+
+.advantages__wrapper {
+  margin: 0;
+  margin-bottom: 33px;
+}
+
+.page-search {
+  margin: 0;
+  margin-bottom: 38px;
+  padding: 0;
+}
+
+.page-search__title {
+  margin: 0;
+}
+
+.page-search__subtitle {
+  margin: 0;
+}
+
+.page-search__button {
+  margin: 0;
+  color: #ffffff;
+  background-color: #81b3d2;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.page-search__photo-map {
+  margin: 0;
+}
+
+.main-footer__hashtag {
+  margin-bottom: 33px;
+}
+
+.main-footer__link-hashtag {
+  margin: 0;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.social__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/ptsans.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../fonts/ptsansbold.woff2") format("woff2");
+  font-display: swap;
+}
+.site-list__link {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.advantages__title {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.welcome__title,
+.advantages__item-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.advantages__number,
+.advantages__description,
+.page-search__subtitle,
+.copyright__text {
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.page-search__title,
+.page-search__button,
+.main-footer__link-hashtag {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
