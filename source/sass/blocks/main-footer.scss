@@ -1,3 +1,9 @@
+@mixin clear-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 .main-footer__hashtag {
   margin-bottom: 33px;
 }
@@ -10,8 +16,5 @@
 }
 
 .social__list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+  @include clear-list;
 }
-

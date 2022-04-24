@@ -1,8 +1,8 @@
 .welcome__logo {
-  margin: 0;
   margin-bottom: 32px;
+  padding: 90px 310px 85px 310px;
   background-color: #81b3d2;
-  background-image: url("../../img/welcome-logo-back.jpg");
+  background-image: url("../img/welcome-logo-back.jpg");
   background-repeat: no-repeat;
 }
 
@@ -10,8 +10,4 @@
   margin-top: 0;
   color: #000000;
   text-transform: uppercase;
-}
-
-.welcome__logo-image {
-  margin: 90px 310px 85px 310px;
 }

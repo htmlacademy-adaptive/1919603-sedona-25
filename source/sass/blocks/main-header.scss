@@ -1,5 +1,5 @@
 .main-navigation__list {
-  list-style-type: none;
+  @include clear-list;
 }
 
 .site-list__link {
