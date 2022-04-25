@@ -1,0 +1,9 @@
+.main-navigation__list {
+  @include clear-list;
+}
+
+.site-list__link {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
