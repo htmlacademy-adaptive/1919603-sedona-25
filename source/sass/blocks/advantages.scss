@@ -1,36 +1,13 @@
-.advantages {
-  margin: 0;
-  padding: 0;
-}
-
 .advantages__list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+  @include clear-list;
 }
 
 .advantages__item {
   background-color: #81b3d2;
-  margin: 0;
-}
-
-.advantages__item:nth-child(n+3) {
-  background-color: #eeeeee;
-}
-
-.advantages__photo-city {
-  background-color: #ffffff;
-}
-
-.advantages__photo-canyon {
-  background-color: #ffffff;
 }
 
 .advantages__sublist {
-  margin: 0;
-  padding: 0;
   background-color: #ffffff;
-  list-style-type: none;
 
   .advantages__item {
     background-color: inherit;
@@ -56,6 +33,5 @@
 }
 
 .advantages__wrapper {
-  margin: 0;
   margin-bottom: 33px;
 }
