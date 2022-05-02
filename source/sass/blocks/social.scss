@@ -1,0 +1,13 @@
+.social__list {
+  @include clear-list;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 47px;
+}
+
+.social__item {
+  width: 48px;
+  height: 48px;
+  margin-right: 6px;
+  background-color: #81b3d2;
+}

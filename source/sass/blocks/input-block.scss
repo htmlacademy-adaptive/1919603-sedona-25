@@ -1,0 +1,13 @@
+.input-block {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 16px;
+}
+
+.input-block__field {
+  height: 58px;
+  width: 264px;
+  padding-left: 16px;
+  background-color: #f2f2f2;
+  border: none;
+}

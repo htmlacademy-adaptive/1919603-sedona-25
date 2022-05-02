@@ -1,0 +1,27 @@
+.card-block {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.card-block__title {
+  margin: 0;
+  order: 1;
+}
+
+.card-block__author {
+  margin: 0;
+  order: 1;
+  margin-bottom: 11px;
+}
+
+.card-block__button-like {
+  width: 69px;
+  height: 26px;
+  order: 1;
+}
+
+.card-block__img-link {
+  order: 0;
+  margin-bottom: 15px;
+}

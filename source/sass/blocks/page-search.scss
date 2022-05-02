@@ -1,5 +1,11 @@
 .page-search {
-  margin-bottom: 38px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.page-search__warpper {
+  padding: 0 30px 32px 30px;
 }
 
 .page-search__title {
@@ -11,7 +17,11 @@
 }
 
 .page-search__button {
-  margin: 0;
+  width: 284px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+  margin: 0 18px 49px 18px;
   color: #ffffff;
   background-color: #81b3d2;
   text-decoration: none;

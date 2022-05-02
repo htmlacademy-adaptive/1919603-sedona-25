@@ -18,7 +18,7 @@
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 40px;
+  line-height: 26px;
 }
 
 .advantages__title {
@@ -30,11 +30,25 @@
 }
 
 .welcome__title,
-.advantages__item-title {
+.advantages__item-title,
+.feedback-form__title,
+.video-presentation__title,
+.modal__title,
+.modal__close-button {
   font-family: "PT Sans", sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 26px;
   text-transform: uppercase;
+}
+
+.input-block__field::placeholder,
+.control-mark-block__label {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
 }
 
 .advantages__number,
@@ -49,10 +63,46 @@
 
 .page-search__title,
 .page-search__button,
-.main-footer__link-hashtag {
+.main-footer__link-hashtag,
+.feedback-form__button {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 21px;
   line-height: 26px;
   text-transform: uppercase;
+}
+
+.welcome__subtitle,
+.input-block__title,
+.video-presentation__subtitle,
+.modal__subtitle {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.feedback-form__required {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.card-block__title,
+.card-block__button-like {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.card-block__author {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
 }

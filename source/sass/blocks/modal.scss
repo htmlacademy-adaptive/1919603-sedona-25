@@ -1,0 +1,22 @@
+.modal-failure .modal__close-button {
+  width: 180px;
+  height: 58px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #81b3d2;
+  border: none;
+}
+
+.modal-success .modal__close-button {
+  width: 280px;
+  height: 58px;
+  margin: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #81b3d2;
+  border: none;
+}
+
+.modal__close-button-wrapper {
+  background-color: #f2f2f2;
+}

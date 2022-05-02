@@ -2,8 +2,19 @@
   @include clear-list;
 }
 
+.site-list__item {
+  width: 320px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #81b3d2;
+  box-shadow: 0 2px 0 #01010133,
+  inset 0 2px 0 #ffffff33;
+}
+
 .site-list__link {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
 }
