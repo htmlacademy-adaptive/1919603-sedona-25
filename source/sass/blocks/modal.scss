@@ -1,4 +1,4 @@
-.modal-failure .modal__close-button {
+.modal__failure .modal__close-button {
   width: 180px;
   height: 58px;
   text-align: center;
@@ -7,7 +7,7 @@
   border: none;
 }
 
-.modal-success .modal__close-button {
+.modal__success .modal__close-button {
   width: 280px;
   height: 58px;
   margin: 20px;
@@ -19,4 +19,19 @@
 
 .modal__close-button-wrapper {
   background-color: #f2f2f2;
+}
+
+.modal__title,
+.modal__close-button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.modal__subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
 }

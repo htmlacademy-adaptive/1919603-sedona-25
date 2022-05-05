@@ -22,6 +22,9 @@
   background-color: #81b3d2;
   border: none;
   text-decoration: none;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
   text-transform: uppercase;
 }
 
@@ -29,4 +32,15 @@
   margin: 0;
   margin-top: 3px;
   color: #33333399;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.feedback-form__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
 }

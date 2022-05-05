@@ -9,12 +9,14 @@
   justify-content: center;
   align-items: center;
   background-color: #81b3d2;
-  box-shadow: 0 2px 0 #01010133,
-  inset 0 2px 0 #ffffff33;
+  box-shadow: 0 2px 0 #01010133, inset 0 2px 0 #ffffff33;
 }
 
 .site-list__link {
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
 }

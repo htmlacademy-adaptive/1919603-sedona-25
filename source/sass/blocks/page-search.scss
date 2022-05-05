@@ -10,10 +10,17 @@
 
 .page-search__title {
   margin: 0;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
 }
 
 .page-search__subtitle {
   margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
 }
 
 .page-search__button {
@@ -25,5 +32,8 @@
   color: #ffffff;
   background-color: #81b3d2;
   text-decoration: none;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
   text-transform: uppercase;
 }
