@@ -25,15 +25,7 @@
 
 .page-search__button {
   width: 284px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  text-align: center;
+  max-height: 26px;
+  padding: 16px 0 16px 0;
   margin: 0 18px 49px 18px;
-  color: #ffffff;
-  background-color: #81b3d2;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 21px;
-  line-height: 26px;
-  text-transform: uppercase;
 }
