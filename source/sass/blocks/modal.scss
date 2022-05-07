@@ -1,0 +1,25 @@
+.modal__close-button {
+  width: 180px;
+
+  &--width_grey-field {
+    width: 280px;
+    margin: 20px;
+  }
+}
+
+.modal__close-button-wrapper {
+  background-color: #f2f2f2;
+}
+
+.modal__title,
+.modal__close-button {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.modal__subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,37 @@
+.card-block {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.card-block__title {
+  order: 1;
+  margin: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.card-block__author {
+  order: 1;
+  margin: 0;
+  margin-bottom: 11px;
+  font-weight: 400;
+}
+
+.card-block__like {
+  order: 1;
+  width: 69px;
+  height: 26px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.card-block__img-link {
+  order: 0;
+  margin-bottom: 15px;
+}

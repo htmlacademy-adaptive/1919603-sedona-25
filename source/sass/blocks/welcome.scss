@@ -1,0 +1,28 @@
+.welcome__logo {
+  margin-bottom: 32px;
+  padding: 90px 310px 85px 310px;
+  background-color: #81b3d2;
+  background-image: url("../img/welcome-logo-back.jpg");
+  background-repeat: no-repeat;
+}
+
+.welcome__wrapper {
+  padding: 36px 20px 28px 20px;
+}
+
+.welcome__title {
+  margin: 0;
+  color: #000000;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.welcome__subtitle {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+}

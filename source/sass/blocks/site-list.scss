@@ -1,0 +1,22 @@
+.site-list {
+  @include clear-list;
+}
+
+.site-list__item {
+  width: 320px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #81b3d2;
+  box-shadow: 0 2px 0 rgba(#010101, 0.2), inset 0 2px 0 rgba(#ffffff, 0.2);
+}
+
+.site-list__link {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}
