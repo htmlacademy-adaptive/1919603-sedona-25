@@ -2,6 +2,10 @@
   @include clear-list;
   display: flex;
   margin-bottom: 47px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 0;
+  }
 }
 
 .social__item {

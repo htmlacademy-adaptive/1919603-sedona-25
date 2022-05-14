@@ -1,3 +1,22 @@
 .main-header {
-  margin: 0;
+  display: flex;
+  width: 100%;
+  height: 56px;
+  justify-content: center;
+
+  @media (min-width: $tablet-width) {
+    width: 100%;
+    display: block;
+  }
+}
+
+.main-header__logo {
+  padding-left: 70px;
+  justify-self: center;
+
+  &--hidden {
+    @media (min-width: $tablet-width) {
+      display: none;
+    }
+  }
 }
