@@ -2,6 +2,18 @@
   display: flex;
   flex-direction: column;
   padding-bottom: 16px;
+
+  @media (min-width: $tablet-width) {
+    &--textarea {
+      padding-bottom: 0;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    &--textarea {
+      align-items: center;
+    }
+  }
 }
 
 .input-block__field {
@@ -22,6 +34,26 @@
 
   &--comment::placeholder {
     color: rgba(#000000, 0.3);
+  }
+
+  @media (min-width: $tablet-width) {
+    &--comment-width {
+      width: 100%;
+      height: 160px;
+      padding: 0;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 430px;
+
+    &--comment {
+      width: 403px;
+    }
+
+    &--comment-width {
+      width: 768px;
+    }
   }
 }
 

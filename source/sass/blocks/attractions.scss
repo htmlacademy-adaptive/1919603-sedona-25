@@ -1,3 +1,11 @@
 .attractions {
-  margin: 0;
+  grid-area: 3 / 1 / 4 / 3;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 42px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 0;
+  }
 }

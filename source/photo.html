@@ -2,17 +2,23 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Седона</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="page__body">
     <div class="page__container">
       <header class="main-header">
-        <a class="main-header__logo">
+        <a class="main-header__logo main-header__logo--hidden">
           <img src="img/logo.svg" width="185" height="96" alt="Гостиницы Седоны.">
         </a>
         <nav class="main-navigation">
           <button class="main-navigation__toggle" type="button">
+            <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M22.9 0H0V4H22.9V0Z" fill="#81B3D2"/>
+              <path d="M22.9 9H0V13H22.9V9Z" fill="#81B3D2"/>
+              <path d="M22.9 18H0V22H22.9V18Z" fill="#81B3D2"/>
+            </svg>
             <span class="visually-hidden">Открыть меню</span>
           </button>
           <div class="main-navigation__wrapper">
@@ -25,6 +31,11 @@
               <li class="site-list__item site-list__item--active">
                 <a class="site-list__link">
                   Фото и видео
+                </a>
+              </li>
+              <li class="site-list__item site-list__item--hidden">
+                <a class="site-list__link site-list__link--hidden">
+                  <img src="img/logo.svg" width="185" height="96" alt="Гостиницы Седоны.">
                 </a>
               </li>
               <li class="site-list__item">
@@ -54,34 +65,50 @@
         <section class="photo-gallery">
           <h2 class="visually-hidden">Галерея</h2>
           <ul class="photo-gallery__list">
-            <li class="photo-gallery__item card-block">
-              <h3 class="card-block__title">Неродные просторы</h3>
-              <p class="card-block__author">Автор фото: Борис</p>
-              <button class="card-block__like">1350</button>
+            <li class="photo-gallery__item card-block card-block--first">
+              <div class="card-block__wrapper">
+                <div class="card-block__wrapper-text">
+                  <h3 class="card-block__title">Неродные просторы</h3>
+                  <p class="card-block__author">Автор фото: Борис</p>
+                </div>
+                <button class="card-block__like">1350</button>
+              </div>
               <a class="card-block__img-link" href="#">
                 <img class="card-block__img" src="img/mobile-road.jpg" alt="Дорога в закат." width="280" height="280">
               </a>
             </li>
             <li class="photo-gallery__item card-block">
-              <h3 class="card-block__title">Местная растительность</h3>
-              <p class="card-block__author">Автор фото: Сергей</p>
-              <button class="card-block__like">143</button>
+              <div class="card-block__wrapper">
+                <div class="card-block__wrapper-text">
+                  <h3 class="card-block__title">Местная растительность</h3>
+                  <p class="card-block__author">Автор фото: Сергей</p>
+                </div>
+                <button class="card-block__like">143</button>
+              </div>
               <a class="card-block__img-link" href="#">
                 <img class="card-block__img" src="img/mobile-cactus.jpg" alt="Кактус." width="280" height="280">
               </a>
             </li>
             <li class="photo-gallery__item card-block">
-              <h3 class="card-block__title">Дорога на север</h3>
-              <p class="card-block__author">Автор фото: Петр</p>
-              <button class="card-block__like">96</button>
+              <div class="card-block__wrapper">
+                <div class="card-block__wrapper-text">
+                  <h3 class="card-block__title">Дорога на север</h3>
+                  <p class="card-block__author">Автор фото: Петр</p>
+                </div>
+                <button class="card-block__like">96</button>
+              </div>
               <a class="card-block__img-link" href="#">
                 <img class="card-block__img" src="img/mobile-mountain-road.jpg" alt="Горная дорога." width="280" height="280">
               </a>
             </li>
             <li class="photo-gallery__item card-block">
-              <h3 class="card-block__title">Мост дьявола</h3>
-              <p class="card-block__author">Автор фото: Антон</p>
-              <button class="card-block__like">254</button>
+              <div class="card-block__wrapper">
+                <div class="card-block__wrapper-text">
+                  <h3 class="card-block__title">Мост дьявола</h3>
+                  <p class="card-block__author">Автор фото: Антон</p>
+                </div>
+                <button class="card-block__like">254</button>
+              </div>
               <a class="card-block__img-link" href="#">
                 <img class="card-block__img" src="img/mobile-canyon.jpg" alt="Каньон." width="280" height="280">
               </a>

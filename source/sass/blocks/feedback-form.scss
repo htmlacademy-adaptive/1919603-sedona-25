@@ -1,17 +1,104 @@
+.feedback-form {
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    row-gap: 56px;
+  }
+}
+
 .feedback-form__fieldset {
   margin: 0;
-  padding: 0;
+  padding: 24px 20px 39px 20px;
   border: none;
+  border-top: 1px solid #e5e5e5;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+  }
 }
 
 .feedback-form__list {
   @include clear-list;
+
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 16px;
+    column-gap: 16px;
+
+    &--impressions {
+      padding-left: 36px;
+      padding-right: 36px;
+    }
+
+    &--attractions {
+      column-gap: 32px;
+      padding-left: 84px;
+      padding-right: 84px;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 16px;
+    column-gap: 16px;
+
+    &--impressions {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 53px;
+      padding-right: 53px;
+    }
+
+    &--attractions {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 44px;
+      padding-right: 44px;
+    }
+  }
 }
 
 .feedback-form__field-group {
-  padding: 20px 20px 20px 0;
   display: flex;
   flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 28px;
+
+    &--introduce-yourself {
+      align-items: flex-start;
+    }
+
+    &--contacts {
+      align-items: flex-end;
+    }
+  }
+}
+
+.feedback-form__button-wrapper {
+  padding: 0 20px;
+
+  @media (min-width: $tablet-width) {
+    grid-area: 5 / 1 / 6 / 3;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 768px;
+    justify-self: center;
+    align-items: center;
+  }
 }
 
 .feedback-form__button {
@@ -25,12 +112,24 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 21px;
+  text-align: left;
   text-transform: uppercase;
 }
 
 .feedback-form__title {
+  padding-top: 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
+  text-align: center;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 21px;
+    padding-top: 0;
+
+    &--width {
+      width: 402px;
+    }
+  }
 }

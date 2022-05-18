@@ -1,3 +1,11 @@
 .modal-container {
   width: 320px;
+
+  @media (min-width: $tablet-width) {
+    width: 400px;
+
+    &--success {
+      width: 640px;
+    }
+  }
 }
