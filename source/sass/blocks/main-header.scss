@@ -2,9 +2,9 @@
   display: flex;
   width: 100%;
   justify-content: center;
+  height: 55px;
 
   @media (min-width: $tablet-width) {
-    width: 100%;
     display: block;
   }
 }

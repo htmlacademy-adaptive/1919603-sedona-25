@@ -11,8 +11,43 @@
 }
 
 .welcome__wrapper {
-  padding: 36px 20px 28px 20px;
   text-align: center;
+
+  &--index-margin {
+    margin: 32px 0 16px 0;
+
+    @media (min-width: $tablet-width) {
+      margin: 47px 0 56px 0;
+    }
+
+    @media (min-width: $desktop-width) {
+      margin: 59px 0 44px 0;
+    }
+  }
+
+  &--form-margin {
+    margin: 36px 0 28px 0;
+
+    @media (min-width: $tablet-width) {
+      margin: 64px 0 102px 0;
+    }
+
+    @media (min-width: $desktop-width) {
+      margin: 115px 0 66px 0;
+    }
+  }
+
+  &--photo-margin {
+    margin: 33px 0 22px 0;
+
+    @media (min-width: $tablet-width) {
+      margin: 62px 0 63px 0;
+    }
+
+    @media (min-width: $desktop-width) {
+      margin: 100px 0 65px 0;
+    }
+  }
 }
 
 .welcome__title {

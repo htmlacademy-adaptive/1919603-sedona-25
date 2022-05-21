@@ -1,8 +1,10 @@
 .photo-gallery__list {
   @include clear-list;
+  margin-bottom: 17px;
 
   @media (min-width: $tablet-width) {
     padding: 0 60px;
+    margin-bottom: 58px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -10,6 +12,7 @@
 
   @media (min-width: $desktop-width) {
     padding: 0;
+    margin-bottom: 62px;
     grid-template-rows: 1fr auto;
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -24,9 +27,21 @@
     padding: 0;
     background-color: #f2f2f2;
     border: none;
+  }
 
-    &:nth-child(n+3):nth-child(odd) {
+  &--silver {
+    @media (min-width: $tablet-width) {
       background-color: #eaeaea;
+    }
+  }
+
+  &--max-width {
+    @media (min-width: $tablet-width) {
+      grid-area: 1/ 1/ 2/ 3;
+    }
+
+    @media (min-width: $desktop-width) {
+      grid-area: 1/ 1/ 2/ 4;
     }
   }
 }

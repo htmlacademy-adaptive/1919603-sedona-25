@@ -57,7 +57,7 @@
           <div class="welcome__logo">
             <img class="welcome__logo-image" src="img/small-welcome-logo.svg" alt="Добро пожаловать в Седону." width="229" height="39">
           </div>
-          <div class="welcome__wrapper">
+          <div class="welcome__wrapper welcome__wrapper--form-margin">
             <h1 class="welcome__title">Оставьте свой отзыв</h1>
             <p class="welcome__subtitle">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
           </div>
@@ -65,9 +65,9 @@
         <section class="feedback">
           <h2 class="visually-hidden">Форма отзыва</h2>
           <form class="feedback__form feedback-form" action="https://echo.htmlacademy.ru/" method="get">
-            <fieldset class="feedback-form__fieldset introduce-yourself">
+            <fieldset class="feedback-form__introduce-yourself">
               <legend class="feedback-form__title">Представьтесь:</legend>
-              <div class="feedback-form__field-group feedback-form__field-group--introduce-yourself">
+              <div class="feedback-form__field-group feedback-form__field-group--flex-start">
                 <label class="feedback-form__label input-block">
                   <span class="input-block__title">Имя*:</span>
                   <input class="input-block__field" type="text" name="form-field" placeholder="Пётр" required>
@@ -82,23 +82,23 @@
                 </label>
               </div>
             </fieldset>
-            <fieldset class="feedback-form__fieldset contacts">
+            <fieldset class="feedback-form__contacts">
               <legend class="feedback-form__title">Контактная информация:</legend>
-              <div class="feedback-form__field-group feedback-form__field-group--contacts">
+              <div class="feedback-form__field-group feedback-form__field-group--flex-end">
                 <label class="feedback-form__label input-block input-block--telephone">
                   <span class="input-block__title">Контактный телефон*:</span>
-                  <input class="input-block__field input-block__field--comment" placeholder="Введите телефон" type="text" name="field-telephone" required>
+                  <input class="input-block__field input-block__field--color input-block__field--width" placeholder="Введите телефон" type="text" name="field-telephone" required>
                 </label>
                 <label class="feedback-form__label input-block input-block--e-mail">
                   <span class="input-block__title">Электронная почта*:</span>
-                  <input class="input-block__field input-block__field--comment" placeholder="Введите e-mail" type="text" name="field-email" required>
+                  <input class="input-block__field input-block__field--color input-block__field--width" placeholder="Введите e-mail" type="text" name="field-email" required>
                 </label>
               </div>
             </fieldset>
-            <fieldset class="feedback-form__fieldset impressions">
+            <fieldset class="feedback-form__impressions">
               <legend class="feedback-form__title feedback-form__title--width">Ваше общее впечатление:</legend>
               <div class="feedback-form__field-group">
-                <ul class="feedback-form__list feedback-form__list--impressions">
+                <ul class="feedback-form__list feedback-form__list--impressions-position">
                   <li class="feedback-form__item">
                     <label class="feedback-form__label control-mark-block">
                       <input class="control-mark-block__input" type="radio" name="impressions" value="positive" checked>
@@ -123,10 +123,10 @@
                 </ul>
               </div>
             </fieldset>
-            <fieldset class="feedback-form__fieldset attractions">
+            <fieldset class="feedback-form__attractions">
               <legend class="feedback-form__title feedback-form__title--width">Посещенные достопримечательности:</legend>
               <div class="feedback-form__field-group">
-                <ul class="feedback-form__list feedback-form__list--attractions">
+                <ul class="feedback-form__list feedback-form__list--attractions-position">
                   <li class="feedback-form__item">
                     <label class="feedback-form__label control-mark-block control-mark-block--checkbox-mark">
                       <input class="control-mark-block__input" type="checkbox" name="devils-bridge" checked>
@@ -158,12 +158,12 @@
                 </ul>
               </div>
             </fieldset>
-            <fieldset class="feedback-form__fieldset comment">
+            <fieldset class="feedback-form__comment">
               <legend class="feedback-form__title feedback-form__title--width">Опишите свои эмоции:</legend>
               <div class="feedback-form__field-group">
                 <label class="feedback-form__label input-block input-block--textarea">
                   <span class="visually-hidden">Комментарий</span>
-                  <textarea class="input-block__field input-block__field--comment input-block__field--comment-width" name="comment" placeholder="Опишите подробно все свои восторги" cols="28" rows="5" wrap="hard"></textarea>
+                  <textarea class="input-block__field input-block__field--color input-block__field--textarea-width" name="comment" placeholder="Опишите подробно все свои восторги" cols="28" rows="5" wrap="hard"></textarea>
                 </label>
               </div>
             </fieldset>
@@ -209,22 +209,22 @@
           </div>
         </div>
       </footer>
-      <div class="modal modal-container modal-container--failure">
-        <div class="modal__wrapper-failure">
+      <div class="modal">
+        <div class="modal__wrapper modal__wrapper--padding">
           <h2 class="modal__title modal__title--line-height">что-то пошло не так!</h2>
           <p class="modal__subtitle">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
         </div>
-        <div class="modal__close-button-wrapper-failure">
-          <button class="button modal__close-button">Ок</button>
+        <div class="modal__button-wrapper">
+          <button class="button modal__button">Ок</button>
         </div>
       </div>
-      <div class="modal modal-container modal-container--success">
-        <div class="modal__wrapper-success">
+      <div class="modal modal--width">
+        <div class="modal__wrapper">
           <h2 class="modal__title">Ваш отзыв отправлен!</h2>
           <p class="modal__subtitle">Спасибо за ваше участие, ваш отзыв уже поступил к нам.В ближайшее время мы опубликуем его на сайте.</p>
         </div>
-        <div class="modal__close-button-wrapper-success">
-          <button class="button modal__close-button modal__close-button--width_grey-field">закрыть окно</button>
+        <div class="modal__button-wrapper modal__button-wrapper--grey-field">
+          <button class="button modal__button">закрыть окно</button>
         </div>
       </div>
     </div>

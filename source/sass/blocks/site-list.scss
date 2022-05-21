@@ -38,6 +38,12 @@
   background-color: #81b3d2;
   box-shadow: 0 2px 0 rgba(#010101, 0.2), inset 0 2px 0 rgba(#ffffff, 0.2);
 
+  @media (min-width: $tablet-width) {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: none;
+  }
+
   &--hidden {
     display: none;
 
@@ -47,11 +53,5 @@
       justify-content: center;
       align-items: flex-start;
     }
-  }
-
-  @media (min-width: $tablet-width) {
-    width: 100%;
-    background-color: #ffffff;
-    box-shadow: none;
   }
 }
